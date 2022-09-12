@@ -33,7 +33,6 @@ int main(void)
 
 						{
 							break;
-
 						}
 						else
 						{
@@ -43,10 +42,13 @@ int main(void)
 					}
 				}
 			}
+
 		}
+
 	}
 
 	putchar('\n');
 
 	return (0);
+
 }
