@@ -31,7 +31,6 @@ int main(void)
 			{
 
 				putchar(c);
-
 				putchar(i);
 
 
@@ -41,7 +40,6 @@ int main(void)
 				{
 
 					putchar(',');
-
 					putchar(' ');
 
 				}
@@ -53,7 +51,5 @@ int main(void)
 	}
 
 	putchar('\n');
-
 	return (0);
-
 }
