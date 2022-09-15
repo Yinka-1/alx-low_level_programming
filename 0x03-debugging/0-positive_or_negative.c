@@ -8,18 +8,13 @@
  *
  * Description: program will assign a random value to n and
  * determine if it's negative or positive
- *
  * Return: Always 0 (Success)
  */
 
 
 int main(void)
-
-
 {
-
 	int n;
-
 
 	srand(time(0));
 
