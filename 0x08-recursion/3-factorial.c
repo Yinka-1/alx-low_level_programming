@@ -5,7 +5,7 @@
   *
   * @n: input
   *
-  * Return factorial
+  * Return: int
   * On error return -1
   */
 
