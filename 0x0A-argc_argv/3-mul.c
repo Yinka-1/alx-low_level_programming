@@ -17,12 +17,14 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf("%s\n", "Error");
+		printf("Error\n");
 
 		return (1);
 	}
 
-	printf("%d\n", i);
-
+	else
+	{
+		printf("%d\n", i);
+	}
 	return (0);
 }
