@@ -9,17 +9,9 @@
   * Return: Always (0)
   */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]__attribute__((unused)))
 {
-	argv[8] = "9";
+	printf("%d\n", argc);
 
-	if (argc > 8)
-	{
-		printf("%s\n", argv[8]);
-	}
-	else
-	{
-		printf("%d\n", argc);
-	}
 	return (0);
 }
