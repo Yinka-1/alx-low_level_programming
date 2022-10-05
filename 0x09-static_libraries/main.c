@@ -9,8 +9,8 @@
 int main(void)
 {
 
-	_puts("\"At the end of the day, my goal");
-	_puts("was to be the best hacker\"\n\t- Kevin Mitnick");
+	_puts("\"At the end of the day, my goal ");
+	_puts("was to be the best hacker\"\n\t- Kevin Mitnick\n");
 
 	return (0);
 
