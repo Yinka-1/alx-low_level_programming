@@ -4,6 +4,8 @@
 
 /**
  * main - check the code for ALX School students.
+ * @av: variable
+ * @ac: variable
  *
  * Return: Always 0.
  */
@@ -15,7 +17,7 @@ int main(int ac, char *av[])
 
 	if (s == NULL)
 	{
-	    return (1);
+		return (1);
 	}
 	printf("%s", s);
 	free(s);
